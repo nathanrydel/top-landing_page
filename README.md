@@ -8,8 +8,10 @@ So, I'm working my way through The Odin Project's Foundations Course, and this i
 
 ## What am I building?
 
-I'm creating a whole webpage from scratch! It's got all the works - a snazzy header, an eye-catching hero section, some info boxes, a fancy quote, a call-to-action that'll make you want to click, and a footer to wrap it all up. The challenge is to make it look as close to the design as possible, without losing my mind over every pixel.
+I'm creating a whole webpage from scratch! It's got all the works - a snazzy header, a hero section, some info boxes, a fancy quote, a call-to-action that'll make you want to click, and a footer to wrap it all up. The challenge is to make it look as close to the design as possible, without losing my mind over every pixel.
 
+![Design Doc 1](/design-docs/top-landing-01.jpg)
+![Design Doc 2](/design-docs/top-landing-02.jpg)
 
 ## What will I learn?
 
