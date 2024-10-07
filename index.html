@@ -81,7 +81,11 @@
     </section>
   </main>
   <footer>
+    <p>Copyright &copy; <span id="currYear"></span> <a href="https://github.com/nathanrydel" target="_blank" class="footer-link">nathanrydel</a></p>
   </footer>
 </body>
-
+<!-- Add dynamic date -->
+<script>
+  document.getElementById('currYear').textContent = new Date().getFullYear();
+</script>
 </html>
