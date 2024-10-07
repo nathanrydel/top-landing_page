@@ -17,6 +17,9 @@ body {
 header {
   background-color: #1F2937;
   padding: 1rem;
+}
+
+.header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,23 +48,30 @@ nav a {
 }
 
 @media screen and (min-width: 768px) {
-    header {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .header-logo {
-      margin-bottom: 0;
-    }
+  .header-content {
+    margin: 0 auto;
+    max-width: 1024px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    nav {
-      flex-direction: row;
-    }
+  .header-logo {
+    margin-bottom: 0;
+  }
 
-    nav a {
-      margin: 0 0 0 1rem;
-    }
+  nav {
+    flex-direction: row;
+  }
+
+  nav a {
+    margin: 0 0 0 1rem;
+  }
 }
 
 /* Hero Section Styles */
@@ -69,7 +79,10 @@ nav a {
 #hero-section {
   background-color: #1F2937;
   color: #F9FAF8;
-  padding: 2rem 0;
+  padding-top: 2rem;
+}
+
+.hero-container {
   text-align: center;
 }
 
@@ -77,13 +90,13 @@ nav a {
   margin-bottom: 2rem;
 }
 
-.hero h1 {
+.hero-title {
   font-size: 48px;
   font-weight: 900;
   margin-bottom: .5rem;
 }
 
-.hero p {
+.hero-subtitle {
   font-size: 18px;
   color:#E5E7EB;
   margin-bottom: 1rem;
@@ -109,8 +122,13 @@ nav a {
 
 @media screen and (min-width: 768px) {
   #hero-section {
-    text-align: left;
     padding: 4rem 1rem;
+  }
+
+  .hero-container {
+    margin: 0 auto;
+    max-width: 1024px;
+    text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -161,6 +179,7 @@ nav a {
   #info-section {
     padding: 4rem 0;
   }
+
   .info-boxes {
     flex-direction: row;
     flex-wrap: wrap;
