@@ -171,6 +171,47 @@ nav a {
 
 /* Quote Section Styles */
 
+#quote-section {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding: 2rem 0;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  margin: 0 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-author {
+  margin: 0.5rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  #quote-section {
+    padding: 4rem 0;
+  }
+
+  .quote-container {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+
+  .quote-text {
+    margin: 0;
+    align-self: center;
+  }
+}
+
 /* Call to Action Styles */
 
 /* Footer Styles */
