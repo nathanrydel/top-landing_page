@@ -300,3 +300,15 @@ nav a {
 }
 
 /* Footer Styles */
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 1rem 0;
+  text-align: center
+}
+
+.footer-link {
+  color: #E5E7EB;
+  text-decoration: underline;
+}
